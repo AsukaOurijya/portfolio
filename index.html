@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azka's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="typewriter.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <div class = "nav-container">
+            <div class="logo">
+                <span>Muhammad Azka Awliya</span>
+            </div>
+
+            <div class="links">
+                <div class="link"><a href="#">Home</a></div>
+                <div class="link"><a href="#">About Me</a></div>
+                <div class="link"><a href="#">Skills</a></div>
+                <div class="link"><a href="#">Projects</a></div>
+                <div class="link"><a href="#">Contact Me</a></div>
+            </div>
+
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About Me</a>
+                <a href="#">Skills</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact Me</a>
+            </div>
+
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+    </nav>
+
+    <section class="about" id="about">
+        <div class="main-container">
+            <div class="image">
+                <img src="azka-circled.png" alt="">
+            </div>
+
+            <div class="content">
+                <h1 data-aos="fade-left">
+                    Bonjour le monde! je m'appelle
+                    <span>Azka</span>
+                </h1>
+
+                <div class="typewriter">
+                    <h1>
+                        Im a
+                        <span id="typewriter-text"></span>
+                        <span class="cursor"></span>
+                    </h1>
+                </div>
+                
+                <p>A computer science student with strong interest in Web Development, Software Engineering, Operating System, and Calculus :D</p>
+                <p>Always eager to learn, build, and innovate. Combining technical skills with curiosity to create impactful solutions.</p>
+
+                <div class="social-links">
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+
+                <div class="button">
+                    <button>CV ATS</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title">
+                <span>My Skills</span>
+            </div>
+            
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic">
+                        My Tech Stack
+                    </div>
+                    
+                    <div class="boxes">
+                        <div class="box">
+                            <div class="topic">Python</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="topic">Java</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="topic">Golang</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="topic">HTML</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="topic">CSS</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="topic">JavaScript</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="content">
+            <div class="title"><span>Projects</span></div>
+        </div>
+
+        <div class="boxes">
+            <div class="box">
+                <div class="topic">To-Do List App</div>
+                <img>
+                <p>A simple to-do list app made with HTML, CSS, and JavaScript</p>
+            </div>
+
+            <div class="box">
+                <div class="topic">Snake Game</div>
+                <img>
+                <p>A snake game made with Python and PyGame library</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title">Contact Me</div>
+        </div>
+
+        <div class="text">
+            <div class="topic">Get in Touch!</div>
+            <div class="topic">Email: mazkaawliya@gmail.com</div>
+            <div class="topic">Phone: +62 822-4988-5987</div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="text">
+            <span> Created by
+                <a href="#">Azka</a>
+                | &#169; 2025 All Rights Reserved</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
