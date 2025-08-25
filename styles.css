@@ -221,7 +221,7 @@ section .main-container {
 }
 
 .content p{
-    font-size: clamp(0.4rem, 0.2rem + 9vw, 1rem);
+    font-size: 17px;
     margin: 10px 0;
 }
 
@@ -438,13 +438,6 @@ section .title span::after {
     font-weight: 700;
 }
 
-/*
-.projects .boxes .box:hover {
-    background-color: #496375;
-    color:#e1ebe9;
-}
-*/
-
 .projects .boxes .box .topic span{
     font-weight: 600;
     font-size: 30px;
@@ -453,4 +446,61 @@ section .title span::after {
 .projects .boxes .box .desc p {
     font-weight: 500;
     font-size: 20px;
+}
+
+.contact {
+    display: flex;
+    margin-top: 200px;
+
+}
+
+.contact .content .title span {
+    margin-top: 50px;
+}
+
+.contact .content .heading span {
+    color:#e1ebe9;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.contact .content .topic span {
+    color: #e1ebe9;
+    font-size: 500;
+    font-size: 30px;
+}
+
+footer {
+    background: #58a393;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .text span {
+    font-size: 17px;
+    font-weight: 400;
+    color: #e1ebe9;
+}
+
+footer .text span a{
+    font-weight: 500;
+    color: #e1ebe9;
+}
+
+footer .text span a:hover {
+    text-decoration: underline;
+}
+
+.scroll-button a {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #e1ebe9;
+    background: #58a393;
+    padding: 7px 12x;
+    font-size: 18px;
+    border-radius: 6px;
+    display: none;
 }
