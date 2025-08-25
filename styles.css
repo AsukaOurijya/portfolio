@@ -368,6 +368,12 @@ section .title span::after {
 .skills-details .box {
     width: auto;
     margin: 20px 56px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.skills-details .box:hover {
+    color: #58a393;
+    transform: scale(1.5);
 }
 
 .skills-details .boxes .topic {
@@ -393,6 +399,12 @@ section .title span::after {
     width: auto;
     margin: 20px 56px;
     border-radius: 12px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.projects .boxes .box:hover {
+    color: #58a393;
+    transform: scale(1.2);
 }
 
 .projects .box .image img{
